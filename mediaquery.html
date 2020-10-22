@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            h1{
+                font-size:45px;
+                text-align:center;
+                border-bottom:gray 2px solid;
+                margin:0;
+                padding:20px;
+            }
+            #grid{
+                display:grid;
+                grid-template-columns: 180px 1fr;
+            }
+            #grid ol{
+                border-right:gray 2px solid;
+                margin:0;
+                padding:20px;
+                padding-left:35px;
+                width:100px;
+            }
+            @media (min-width:900px){
+                h1{
+                    border-bottom:none;
+                }
+                #grid{
+                    display:block;
+                }
+                #grid ol{
+                    border-right:none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            CSS
+        </h1>
+        <div id="grid">
+            <ol>
+                <li>CSS 역사</li>
+                <li>CSS 속성</li>
+            </ol>
+            <div>
+                <h3>CSS 역사</h3>
+                CSS는 지속적으로 새로운 버전이 나오고 있다. 1996년에 도입된 CSS 1은 CSS의 바탕이 되었다. CSS의 표준으로는 CSS 2.1이 있으며 이전 버전에 비하여 새로운 기능과 도구가 추가되었다. 대다수의 웹 브라우저는 CSS 3를 잘 지원한다. 현재 W3C에서는 CSS3을 표준으로 만들고 있다.
+            </div>
+        </div>
+
+    </body>
+</html>
